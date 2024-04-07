@@ -46,9 +46,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Xunit": {
+            "NUnit": {
               "target": "Package",
-              "version": "[2.7.0, )"
+              "version": "[4.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

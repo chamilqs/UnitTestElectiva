@@ -6,7 +6,7 @@ namespace SimpleWebApp.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Hello, World!");
+            return Content("Hello, World! This is my first Unit Test!");
         }
     }
 }
