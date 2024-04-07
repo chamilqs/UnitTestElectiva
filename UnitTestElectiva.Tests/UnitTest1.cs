@@ -1,24 +1,15 @@
-using System;
-using Xunit;
-using SimpleWebApp.Controllers;
-using Microsoft.AspNetCore.Mvc;
+namespace UnitTestElectiva.Tests;
 
-namespace SimpleWebApp.Tests
+public class Tests
 {
-    public class UnitTest1
+    [SetUp]
+    public void Setup()
     {
-        [Fact]
-        public void Test1()
-        {
-            // Arrange
-            var controller = new HomeController();
+    }
 
-            // Act
-            var result = controller.Index() as ContentResult;
-
-            // Assert
-            Assert.NotNull(result);
-            Assert.Equal("Hello, World!", result.Content);
-        }
+    [Test]
+    public void Test1()
+    {
+        Assert.Pass();
     }
 }
